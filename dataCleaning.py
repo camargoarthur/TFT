@@ -10,3 +10,6 @@ collection = db['matches']
 dados = list(collection.find())
 df = pd.DataFrame(dados)
 client.close()
+
+#Dados tabela matchs
+#matchs = df.loc[:,[info.participants.]]
